@@ -1,0 +1,106 @@
+body {
+  background-color: #0d192c;
+}
+
+.main-container {
+  background-color: #15263f;
+  width: 350px;
+  height: 580px;
+  margin: 152px auto;
+  border-radius: 15px;
+  padding-top: 24px;
+  position: relative;
+}
+
+#image-container {
+  display: block;
+  width: 302px;
+  height: 302px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 22px;
+  margin-left: 24px;
+  color: white;
+}
+
+.first-p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #8bacd9;
+  margin: 24px;
+  font-family: "Outfit";
+}
+
+section {
+  margin: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+section > div:nth-child(1) {
+  color: #00fff8;
+}
+
+section > div:nth-child(2) {
+  color: #8bacd9;
+}
+
+section > div > img {
+  margin-right: 5px;
+}
+
+#footer {
+  margin: 14px 24px 0px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid #2e405a;
+}
+
+#footer > img {
+  height: 33px;
+  width: 33px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#footer > h3 {
+  display: inline;
+  margin: 18px;
+  color: #8bacd9;
+  font-size: 16px;
+}
+
+#footer > h3 > span {
+  color: white;
+  font-size: 16px;
+}
+
+#view-icon-background {
+  position: absolute;
+  width: 302px;
+  height: 302px;
+  background-color: #00fff8;
+  opacity: 0;
+  border-radius: 8px;
+  margin-left: 24px;
+  top: 4.03%;
+  transition: opacity 0.5s;
+}
+
+#view-icon-background:hover {
+  opacity: 0.5;
+}
+
+#view-icon-background > svg {
+  display: block;
+  margin: 136px auto;
+  opacity: 1;
+}
